@@ -2,10 +2,8 @@ import PropTypes from "prop-types";
 import style from "./Friends-list.module.css";
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
-  let color = "red";
-  if (isOnline) {
-    color = "green";
-  }
+  const color = isOnline ? "green" : "red";
+
   return (
     <li className={style.item}>
       <span className={style.status} style={{ backgroundColor: color }}></span>
