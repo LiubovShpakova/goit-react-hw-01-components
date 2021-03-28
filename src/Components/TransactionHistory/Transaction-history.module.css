@@ -1,0 +1,28 @@
+.transaction__history {
+  max-width: 300px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.table__head {
+  padding: 5px;
+}
+.header {
+  padding: 5px;
+  width: calc(300px / 3);
+  text-align: center;
+  color: white;
+  background-color: rgba(8, 185, 225, 0.466);
+}
+.table__body {
+  text-align: center;
+}
+.row {
+  font-weight: 700;
+}
+.row:nth-child(2n) {
+  background-color: rgb(235, 234, 234);
+  color: rgb(103, 103, 103);
+}
+.row:nth-child(2n + 1) {
+  color: rgb(103, 103, 103);
+}
